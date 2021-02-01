@@ -1,0 +1,186 @@
+.cardsflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor {
+    height: 100vh;
+}
+
+h1 {
+    background-image: url(./img/footer.jpg);
+}
+
+.card {
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.footer {
+    background-image: url(./img/footer.jpg);
+}
+
+.social-icon {
+    font-size: 3rem;
+    color: gainsboro;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+.cardsflex div:hover {
+    color: gainsboro;
+    background-color: rgb(95, 14, 55);
+    margin: auto;
+    transition: 0.5s;
+}
+
+.footer .social-icon:hover {
+    color: lawngreen;
+}
+
+.footer1 {
+    margin-top: auto;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    margin: 0%;
+
+}
+
+.carrusel {
+    padding-bottom: 120px;
+}
+
+.carrusel img {
+    height: 1000px;
+}
+
+.carrusel h5 {
+    color: lightsteelblue;
+    font-size: 30px;
+}
+
+.carrusel p {
+    color: rgb(192, 10, 192);
+    font-size: 20px;
+}
+
+.posiciondeflex {
+    margin-bottom: 60px;
+}
+
+.navbaredit {
+    margin-bottom: 10px;
+    z-index: 20;
+    position: sticky;
+    top: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 65px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    text-align: center;
+    color: rgb(92, 3, 80);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.perfil :hover {
+    color: lightsteelblue;
+    transition: 0.8s;
+}
+
+.perfil2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titulos {
+    margin-bottom: 220px; 
+    font-size: 18px;
+}
+
+.titulos p {
+    color: rgb(46, 174, 216);
+}
+
+.titulos img {
+    height: 315px; width: 400px;
+}
+
+.titulos :hover {
+    color: lightsteelblue;
+    transition: 0.8s;
+    font-size: 21px;
+}
+
+.formulario {
+    background-color: rgb(255, 255, 255);
+    max-width:600px;
+    padding: 3rem;
+    margin: 5rem auto ;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    margin-bottom: 150px;
+}
+
+.formulario :hover {
+    color: blueviolet;
+}
+
+.flexnombres {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.formulario label {
+    display: block;
+}
+
+.formulario input, .formulario textarea {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    width: 100%;
+}
+
+.boton {
+padding: 0.7rem 3rem;
+color: rgb(0, 0, 0);
+border: none;
+font-size: 1.3rem;
+border-radius: 20px;
+}
+
+.contenedorboton {
+display: flex;
+justify-content: center;
+}
+
+.compra h3 :hover {
+    color: black;
+}
+
+
+
+
